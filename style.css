@@ -1,0 +1,16 @@
+.dataTables_length,
+.dataTables_filter {
+    display: inline-block;
+}
+
+.dataTables_filter {
+    float: right;
+}
+
+.dataTables_length {
+    margin-right: 1rem;
+}
+
+.hide {
+    display: none;
+}
