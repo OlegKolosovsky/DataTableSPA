@@ -69,7 +69,7 @@ if (!isset($_SESSION['id'])){
         <div class="row">
             <div class="col-lg-12">
                 <div class="table-responsive">
-                    <table id="dataTable" class="table table-striped table-bordered table-condensed" style="width:100%">
+                    <table id="dataTable" class="table table-hover table-bordered table-condensed" style="width:100%">
                         <thead class="text-center">
                             <tr>
                                 <th class="hide"></th>

@@ -38,3 +38,7 @@ table.dataTable {
 .hide {
     display: none;
 }
+
+.tbody {
+    word-break: break-word;
+}
