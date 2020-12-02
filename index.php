@@ -14,6 +14,7 @@ session_start();
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/datatables/css/dataTables.bootstrap4.min.css">
     <link rel="stylesheet" href="assets/datatables/css/buttons.bootstrap4.min.css">
+    <link rel="stylesheet" href="assets/datatables/css/fixedHeader.dataTables.min.css">
     <link rel="stylesheet" href="assets/fontawesome/all.min.css">
     <link rel="stylesheet" href="style.css">
 
@@ -49,10 +50,8 @@ if (!isset($_SESSION['id'])){
 
 ?>
 
-    <h1></h1>
-
     <!-- Кнопка добавления новой строки -->
-    <div class="container-fluid">
+    <div class="container-fluid fixed">
         <div class="row">
             <div class="col-lg-12">
                 <button id="addBtn" type="button" class="btn btn-info" data-toggle="modal" data-target="#modalCrud"><i class="fas fa-plus fa-2x"></i></button>
@@ -64,6 +63,7 @@ if (!isset($_SESSION['id'])){
         </div>
     </div>
     <br>
+
     <!-- Структура таблицы -->
     <div class="container-fluid">
         <div class="row">
@@ -151,6 +151,7 @@ if (!isset($_SESSION['id'])){
     <script src="assets/datatables/js/dataTables.bootstrap4.min.js"></script>
     <script src="assets/datatables/js/dataTables.buttons.min.js"></script>
     <script src="assets/datatables/js/buttons.bootstrap4.min.js"></script>
+    <script src="assets/datatables/js/dataTables.fixedHeader.min.js"></script>
     <script src="assets/datatables/js/jszip.min.js"></script>
     <script src="assets/datatables/js/buttons.html5.min.js"></script>
     <script src="assets/mousetrap/mousetrap.min.js"></script>

@@ -1,14 +1,38 @@
+.fixed {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.dom-wrapper {
+    position: fixed;
+    width: 100%;
+    top: 60px;
+    z-index: 999;
+    background-color: white;
+    padding-top: 1rem;
+}
+
 .dataTables_length,
 .dataTables_filter {
     display: inline-block;
 }
 
-.dataTables_filter {
-    float: right;
-}
-
 .dataTables_length {
     margin-right: 1rem;
+}
+
+.dataTables_filter {
+    float: right;
+    padding-right: 30px;
+}
+
+/* Удалил margin-top:6px !important из dataTables.bootstrap4.min.css */
+table.dataTable {
+    margin-top: 91px;
 }
 
 .hide {

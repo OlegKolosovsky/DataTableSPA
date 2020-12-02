@@ -24,12 +24,15 @@ $(document).ready(function() {
         "language": {
             "url": "assets/datatables/russian.json"
         },
+        "dom": '<"dom-wrapper"lBf>rtip',
+        fixedHeader: {
+            headerOffset: 24
+        },
         columnDefs: [
             { targets: [ 0 ],
               className: "hide"
             }
           ],
-          "dom": 'lBfrtip',
           lengthMenu: [
               [10, 25, 50, -1],
               ['10', '25', '50', 'Все']
